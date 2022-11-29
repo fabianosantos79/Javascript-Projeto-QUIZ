@@ -1,95 +1,101 @@
 let questions = [
     {
-        question: 'Em qual elemento HTML nós colocamos o javascript?',
+        question: 'Quantos estádios tem na Copa do Qatar?',
         options: [
-            'tag js',
-            'tag script',
-            'tag scripting',
-            'tag javascript'
+            '12',
+            '8',
+            '10',
+            '14'
         ],
         answer: 1
     },
     {
-        question: 'Onde é o local certo de colocar o javascript?',
+        question: 'Qual foi o placar do primeiro jogo?',
         options: [
-            'Na tag body',
-            'Na tag head',
-            'Tanto na tag body quanto a head estão corretas'
-        ],
-        answer: 2
-    },
-    {
-        question: 'Qual a sintaxe correta para adicionar um arquivo javascript externo na tag script?',
-        options: [
-            'name="xxx.js"',
-            'src="xxx.js"',
-            'href="xxx.js"'
-        ],
-        answer: 1
-    },
-    {
-        question: 'Um arquivo javascript externo precisa ter a tag script',
-        options: [
-            'Verdade',
-            'Falso'
-        ],
-        answer: 1
-    },
-    {
-        question: 'Como escrever um "Olá Mundo" em um alertbox?',
-        options: [
-            'alertBox("Olá Mundo")',
-            'msgBox("Olá Mundo")',
-            'msg("Olá Mundo")',
-            'alert("Olá Mundo")'
+            'Catar 1 x 0 Equador',
+            'Catar 2 x 0 Equador',
+            'Catar 0 x 1 Equador',
+            'Catar 0 x 2 Equador'
         ],
         answer: 3
     },
     {
-        question: 'Como você cria uma função no Javascript?',
+        question: 'Qual jogador marcou 2 gols na goleada da Inglaterra sobre o Irã por 6x2?',
         options: [
-            'function:minhaFuncao()',
-            'function = minhaFuncao()',
-            'function minhaFuncao()'
+            'Jude Bellingham',
+            'Raheem Sterling',
+            'Bukayo Saka',
+            'Marcus Rashford'
         ],
         answer: 2
     },
     {
-        question: 'Como chamar uma função chamada "minhaFuncao"?',
+        question: 'O primeiro empate da Copa do Mundo 2022 foi entre quais países?',
         options: [
-            'call minhaFuncao',
-            'call function minhaFuncao',
-            'minhaFuncao()'
+            'Senegal e Holanda',
+            'Estados Unidos e Gales',
+            'Dinamarca e Tunísia',
+            'México e Polônia'
+        ],
+        answer: 1
+    },
+    {
+        question: 'O jogo entre França e Austrália terminou 4x1 para o time europeu, com 1 gol de Rabiot, 1 de Mbappé e 2 de...',
+        options: [
+            'Giroud',
+            'Dembelé',
+            'Tchouaméni',
+            'Benzema'
+        ],
+        answer:0
+    },
+    {
+        question: 'Das seleções abaixo, qual foi a única cujo resultado NÃO terminou em zebra na primeira rodada?',
+        options: [
+            'Argentina',
+            'Alemanha',
+            'Espanha'
         ],
         answer: 2
     },
     {
-        question: 'Como escrever uma condicional IF no Javascript?',
+        question: 'No jogo entre México e Polônia que jogador perdeu um pênalti?',
         options: [
-            'if i = 5',
-            'if i == 5 then',
-            'if (i == 5)',
-            'if i = 5 then'
+            'Zielinski',
+            'Martin',
+            'Lozano',
+            'Lewandowski'
+        ],
+        answer: 3
+    },
+    {
+        question: 'Que recorde Cristiano Ronaldo quebrou nessa Copa?',
+        options: [
+            'Maior número de jogos por uma seleção',
+            'Maior número de partidas vencidas',
+            'Primeiro a marcar em cinco edições diferentes',
+            'Gol mais rápido da história da copa'
         ],
         answer: 2
     },
     {
-        question: 'Como fazer um if que executa um código caso "i" for diferente de 5',
+        question: 'Que seleção não marcava um gol há 64 anos em uma Copa do Mundo?',
         options: [
-            'if (i != 5)',
-            'if (i <> 5)',
-            'if i <> 5',
-            'if i =! 5 then'
+            'País de Gales',
+            'Arábia Saudita',
+            'Gana',
+            'Suíça'
         ],
         answer: 0
     },
     {
-        question: 'Como o loop while começa?',
+        question: 'O Brasil estreou com vitória, quem foi o autor dos dois gols da seleção?',
         options: [
-            'while (i <= 10)',
-            'while (i <= 10; i++)',
-            'while i = 1 to 10'
+            'Vinicius Jr.',
+            'Richarlison',
+            'Neymar Jr.',
+            'Raphinha'
         ],
-        answer: 0
+        answer: 1
     },
 ];
